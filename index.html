@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    
+    <title>Choropleth Map</title>
+</head>
+<body>
+    <div id="text">
+    <h2 id="title">Education Data</h2>
+    <div id="description">Over 25 With Bachelors Degree</div>
+    <div id ="tooltip"></div>
+    <svg id="canvas">
+
+    </svg>
+    <svg id="legend">
+        <rect x="70" y="0" width="40" height = "40" fill="rgb(155, 163, 235)"></rect>
+        <text x="75" y="55">+0%</text>
+        <rect x="110" y="0" width="40" height = "40" fill="rgb(100, 111, 212)"></rect>
+        <text x="112" y="55">+15%</text>
+        <rect x="150" y="0" width="40" height = "40" fill="rgb(76, 53, 117)"></rect>
+        <text x="152" y="55">+35%</text>
+        <rect x="190" y="0" width="40" height = "40" fill="rgb(55, 27, 88)"></rect>
+        <text x="192" y="55">+45%</text>
+    </svg>
+</div>
+    
+</body>
+<script defer src="script.js"></script>
+</html>

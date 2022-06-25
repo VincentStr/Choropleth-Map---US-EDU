@@ -1,0 +1,87 @@
+html{
+    background-color:rgb(194, 194, 194);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    background-color: rgb(243, 243, 243);
+    
+}
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+    background-color: rgb(169, 215, 255);
+    padding: 1vh;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 4vh;
+}
+#title{
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+#description{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace ;
+    margin-bottom: 10px;
+
+}
+#text{
+    background-color:rgb(243, 243, 243);
+    text-align: center;
+    border-radius: 10px;
+    max-width: 1200px;
+}
+#legend{
+    margin-top: 5vh;
+    float: middle;
+    font-size: 14px;
+    transform: scale(1.05);
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: 30vh;
+    margin: 0 auto;
+    font-family:  'Courier New', Courier, monospace ;
+    font-size: 1.1rem;
+    min-height: 5vh;
+
+
+}
+@media only screen and (max-width: 1100px) {
+    #canvas{transform: scale(0.85);
+    }
+
+  }
+
+
+@media only screen and (max-width: 900px) {
+    #canvas{transform: scale(0.75);
+    margin-top: -100px;
+    }
+
+  }
+
+  
+@media only screen and (max-width: 700px) {
+    #canvas{transform: scale(0.60);
+        margin-top: -100px;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    #canvas{transform: scale(0.45);
+        margin-top: -100px;
+    }
+    #legend{
+        margin-top: -100px;
+    }
+  }
