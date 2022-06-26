@@ -54,7 +54,6 @@ svg {
 #tooltip {
     visibility: hidden;
     height: auto;
-    width: 30vh;
     margin: 0 auto;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
